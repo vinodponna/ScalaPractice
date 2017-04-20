@@ -1,0 +1,8 @@
+REPL - Read Evaluate Print Loop
+Interpert - It shows error at time of execution. 	Small programs
+Compile - It shows error before time of execution.	Big programs
+
+Scala -- Both interpert / Compiler .
+Scala is Functional Programming Laguage.
+Functions are first class objects. They treated the way the variables are treated.
+Scala increases number of obsteractions which makes code easy to understand.

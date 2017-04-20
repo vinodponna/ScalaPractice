@@ -1,0 +1,57 @@
+object HelloWorld {
+    def main(args: Array[String]) {
+      println("Hello, world!")
+    }
+  }
+
+
+
+object HelloWorld {
+  def main(args: String){
+  println("Hello World")  
+  }
+  
+}
+
+class MathsProg {
+    def math(passedString: String,x: Double,y: Double) {
+val result= passedString  	match {
+case ("add") => s"Addition of $x,$y is " + (x+y)
+case ("mul") => s"Multipiation of $x,$y is " +(x*y)
+case ("div") => f"Division of $x,$y is " + (x/y).toInt
+}
+println(result)
+}
+}
+
+
+
+class MathsProg {
+    def math(passedString: String,x: Int,y: Int) = (passedString,x,y)  match {
+	case ("add",_,_) => x + y
+	case ("mul",_,_) => x * y
+	case ("div",_,_) => x / y
+	}
+}
+
+
+class forLoop {
+def forMethod (a: Int){
+for (i <- 1 to a)
+{
+  if(i%3!=0)
+   {
+     println(i)
+}
+}
+}
+}
+
+
+Hello World
+-----------
+object Hello {
+ def main(args:Array[String]) {
+   println("Welcome to Scala")
+ }
+}
